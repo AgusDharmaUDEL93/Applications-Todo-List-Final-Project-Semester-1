@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambahLayout"
+    tools:ignore="Autofill">
+
+    <EditText
+        android:id="@+id/tambahTodo"
+        android:layout_width="281dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="138dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/tambahTodo"
+        android:minHeight="48dp"
+        android:hint="@string/masukkan_list"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/tambahButtonTambah"
+        android:layout_width="123dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/tambahbtn"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tambahTodo"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/batalButtonTambah"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/batal"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/tambahbtn"
+        android:textColor="@color/blue"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

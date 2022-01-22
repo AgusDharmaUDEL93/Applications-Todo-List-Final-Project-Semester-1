@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FInalProjectTodoList</string>
+    <string name="tambahbtn">TAMBAH</string>
+    <string name="hapusbtn">HAPUS</string>
+    <string name="batal">BATAL</string>
+    <string name="todolist">TodoList</string>
+    <string name="masukkan_list">Masukkan List</string>
+    <string name="masukkan_no_list">Masukkan No List</string>
+</resources>
